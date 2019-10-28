@@ -8,6 +8,7 @@
 #define nullptr ((void *)0)
 #endif
 
-extern struct AmberState *amberGet(void);
+struct AmberState;
+struct AmberState *amberGet(void);
 
 #endif //AMBER_UTIL_H

@@ -5,5 +5,5 @@
 void amberMain() {
   amberInitState(amberGet());
 
-  puts("Hello World!\nReally long text lol gets long wow it's getting longer and longer and longer.");
+  puts("Hello World.");
 }

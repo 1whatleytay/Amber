@@ -6,6 +6,7 @@
 typedef struct {
     uint32_t column;
     uint32_t row;
+    uint8_t color;
 } AmberTerminal;
 
 typedef struct {

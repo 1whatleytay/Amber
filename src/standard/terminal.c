@@ -46,6 +46,7 @@ void puts(const char *text) {
 bool amberInitTerminal(struct AmberState *amber) {
     amber->terminal.column = 0;
     amber->terminal.row = 0;
+    amber->terminal.color = terminalColor;
 
     for (uint32_t a = 0; a < terminalWidth * terminalHeight; a++) {
         putCharacter(amber, ' ');

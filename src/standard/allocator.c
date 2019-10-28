@@ -15,7 +15,5 @@ void free(void *ptr) {
 }
 
 bool amberInitAllocator(struct AmberState *amber) {
-    (void)amber;
-
     return true;
 }
